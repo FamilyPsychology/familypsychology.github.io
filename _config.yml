@@ -15,7 +15,8 @@ excerpt_separator: <!--more--> #use this in posts to define how long the excerpt
 colors:  #in hex code if not noted else
   primary: "#4ea4a1" #"#F70031" 
   primary_rgb: "78,164,161" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
-  secondary: "#DCDCDC" #"#33004D"
+  secondary: "#DCDCDC" #"#33004D" #DCDCDC
+  text_color: "#464545"
   link: "#8f2017"
   link_hover: "##151414"
   footer_heading: "#ffffff"
@@ -27,16 +28,16 @@ gems:
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
+  - title: google+
+    url: https://plus.google.com/u/1/103608231883172295819/about
   - title: facebook
-    url:
+    url: https://www.facebook.com/pages/Family-Psychology-Practice-Sydney/270850846294148
   - title: twitter
-    url: 
-  - title: instagram
-    url: 
+    url: https://twitter.com/kidpsychologist
+  - title: linkedin
+    url: https://www.linkedin.com/profile/view?id=123908730
   - title: tumblr
-    url: 
+    url: #
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
@@ -101,7 +102,7 @@ clients:
     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "Family Psychology Practice has been in operation for 8 years and is focused on the mental health of families from all walks and backgrounds"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
