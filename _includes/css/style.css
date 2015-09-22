@@ -9,9 +9,16 @@
 	
 ################################################################# */ 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(../assets/fonts/cinnamon-cake.ttf)
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
+@font-face {
+  font-family: 'cinnamon cake';
+
+  src: url('../fonts/cinnamon-cake.ttf');
+  src: url('../fonts/cinnamon-cake.ttf') format('truetype');
+}
 
 /*	################################################################
 	1. GENERAL STRUCTURES
@@ -97,13 +104,12 @@ a:focus {
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .navbar {
-	min-height: 70px;
+	min-height: 140px;
 	padding-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 }
 
 .navbar-brand {
-	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
 }
 
@@ -111,10 +117,15 @@ a:focus {
 	color: white;
 }
 
+.navbar-collapse .navbar-nav {
+    padding-top: 80px;
+}
+
 .navbar-default .navbar-nav > li > a {
 	color: white;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 30px;
+    font-family: "cinnamon cake";
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -218,19 +229,25 @@ a:focus {
 #headerwrap {
 	background-color: {{ site.colors.primary }};
 	min-height: 0px;
-	padding-top: 100px;
+	padding-top: 130px;
 	padding-bottom: 50px;
 	text-align: center;
 }
 
 #headerwrap h3, h5 {
-	color: white;
 	font-weight: 400;
+    font-family: "cinnamon cake";
+    font-size: 61px;
+    color: #1c5550;
 }
 
+
 #headerwrap h1 {
-	color: white;
+	font-weight: 400;
 	margin-bottom: 25px;
+    font-family: "cinnamon cake";
+    font-size: 61px;
+    color: #612338;
 }
 
 #headerwrap .img-responsive {
